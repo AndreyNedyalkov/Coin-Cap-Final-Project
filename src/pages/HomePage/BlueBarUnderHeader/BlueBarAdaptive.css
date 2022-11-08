@@ -1,0 +1,19 @@
+.Blue-desktop-bar-adaptive {
+    background-image: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246));
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.Blue-mobile-bar-adaptive{
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .Blue-desktop-bar-adaptive{
+        display: none;
+    }
+    .Blue-mobile-bar-adaptive{
+        display: block;
+    }
+}

@@ -1,0 +1,12 @@
+.MainWrapperPortfolioPage {
+      padding: 0vw 7vw;
+      justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .MainWrapperPortfolioPage {
+        padding: 0px;
+        margin-top: 0px;
+        transition: 1s;
+    }
+}

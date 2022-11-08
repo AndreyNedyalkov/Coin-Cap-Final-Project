@@ -1,0 +1,38 @@
+.Footer-Body {
+    height: auto;
+    background-image: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246));
+    align-items: flex-start;
+    color: white;
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .Footer-Container {
+    box-sizing: border-box;
+    width: 260px; 
+    height: 100%; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .Social-Media-Icons > a {
+    color: white;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    opacity: .6;
+    transition: opacity .2s ease;
+  }
+
+  .Social-Media-Icons > a:hover {
+    opacity: 1 !important;
+  }
+
+  .Logo-Footer > img {
+    width: 135px;
+  }
+
+
+
+

@@ -1,0 +1,20 @@
+.Swap-component-body .Currency-input-styled-input {
+    box-sizing: inherit;
+    line-height: 1.15;
+    margin: 0;
+    overflow: visible;
+    width: 100%;
+    margin-right: 5px;
+    font-size: 24px;
+    font-family: inherit;
+    color: rgba(0, 0, 0, 0.9);
+    padding: 10px 5px 0px 0px;
+    background: transparent;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+.Swap-component-body .Currency-input-styled-input:focus {
+    outline: none;
+}

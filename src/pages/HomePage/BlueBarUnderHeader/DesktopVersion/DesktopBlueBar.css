@@ -1,0 +1,40 @@
+.Desktop-blue-bar-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 125px;
+    width: 90%;
+}
+
+.Desktop-blue-bar-half {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    transition: 0.6s;
+}
+@media only screen and (max-width: 900px) {
+    .Desktop-blue-bar-half {
+        width: 97%;
+        transition: 1s;
+    }
+}
+
+.Desktop-blue-bar-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 33.3%;
+}
+
+.Desktop-blue-bar-item h5  {
+    margin: 0;
+    text-align: center;
+}
+
+.Desktop-blue-bar-item h2 {
+    margin: 0;
+    text-align: center;
+    font-weight: 200;
+}

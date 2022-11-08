@@ -1,0 +1,47 @@
+.MainWrapperWatchlist {
+    margin-top: 5px;
+      padding: 0vw 7vw;
+      justify-content: center;
+}
+
+.noCoinsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.noCoinsQuestion{
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.noCoinsQuestionLink{
+    font-family: monospace;
+   
+}
+
+.noCoinsQuestionLink > a{
+    color: #4D77CD;
+    font-family: cursive;
+    font-weight: 800;
+}
+
+.noCoinsQuestionLink > a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+    .MainWrapperWatchlist {
+        
+        transition: 1s;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .MainWrapperWatchlist {
+        padding: 0px;
+        margin-top: 0px;
+        transition: 1s;
+    }
+}

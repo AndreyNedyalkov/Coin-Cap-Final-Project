@@ -1,0 +1,18 @@
+.Settings-Container {
+    color: white;
+}
+
+.Settings-Container hr {
+    color: aliceblue;
+}
+
+.Setting-item form{
+    height: 4vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Select-settings-item-container {
+    display: flex;
+    justify-content: center;
+}

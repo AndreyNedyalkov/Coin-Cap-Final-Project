@@ -1,0 +1,86 @@
+.InputSearch {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+    height: 35px;
+    transform-origin: 50%;
+}
+
+.search-field-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 20px;
+    border: white solid 1px;
+    border-radius: 20px;
+    padding: 6px;
+    z-index: 3;
+}
+
+.search-options-box{
+    width: 193px;
+    margin-top: -15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.searched-option-link:last-child{
+    border-radius: 0px 0px 20px 20px;
+}
+.searched-option-link{
+    padding: 3px;
+    transition: 0.2s;
+}
+.searched-option-link:hover{
+    background-color: rgb(162, 186, 231);
+    transition: 0.2s;
+}
+
+.search-field-container:hover {
+    transition: 0.8s;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.focused {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+
+.Search-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: #2f3640;
+    cursor: pointer;
+}
+
+.Search-btn i {
+    font-size: 17px;
+}
+
+.Search-text {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    color: #2f3640;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 0;
+    font-weight: bold;
+}
+.search-field-container:hover .Search-text, .Search-text:focus {
+    width: 150px;
+    padding: 0 5px;
+}
+

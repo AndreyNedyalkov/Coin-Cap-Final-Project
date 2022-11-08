@@ -1,0 +1,32 @@
+.portfolio-overview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.portfolio-container {
+    width: 200px;
+    max-width: 220px;
+    max-height: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-container {
+    box-shadow: rgb(0 0 0 / 30%) 2px 12px 15px -5px;
+    border-bottom: 20px;
+}
+
+.PortfolioSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.PortfolioBoxSection {
+    width: 70vh;
+}
+

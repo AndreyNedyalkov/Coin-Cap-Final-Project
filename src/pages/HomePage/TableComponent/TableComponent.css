@@ -1,0 +1,25 @@
+.symbolNameLogoContainerCellContainer{
+    display: flex;
+    align-items: center;
+}
+
+.symbolNameLogoContainerCellContainer > img {
+    padding: 0px 5.5px 0px 0px;
+    width: 30px;
+    height: 42px;
+}
+
+.symbolAndLogoCell {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.43;
+    margin-top: 5px;
+}
+
+.symbolAndLogoCell > p {
+    padding-top: 5px;
+    font-size: 0.8em;
+    opacity: 0.7;
+}
+

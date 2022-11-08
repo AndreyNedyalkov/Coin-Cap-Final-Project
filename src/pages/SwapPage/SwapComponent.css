@@ -1,0 +1,233 @@
+.Swap-component {
+    color: rgba(0, 0, 0, .87);
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 9px;
+    border-radius: 13px;
+    background: rgb(255, 255, 255);
+    max-width: 450px;
+    height: 450px;
+    margin-top: -5vh;
+
+}
+
+.Swap-component-header {
+    font-size: 14px;
+    line-height: 1.4285em;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    box-sizing: inherit;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 17px;
+    color: rgba(0, 0, 0, 0.9);
+    padding: 20px 20px 0px;
+    
+}
+
+.Swap-component-header h3 {
+    color: rgba(0, 0, 0, 0.9);
+    box-sizing: inherit;
+    padding: 0;
+    font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+    line-height: 1.28571429em;
+    font-weight: 700;
+    font-size: 1.28571429rem;
+    margin: 0px;
+    margin-top: 0;
+}
+
+.Swap-component-body {
+    font-size: 14px;
+    line-height: 1.4285em;
+    color: rgba(0, 0, 0, .87);
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    box-sizing: inherit;
+    padding: 0px 20px 20px;
+}
+
+.Swap-component-body .Currency-input {
+    font-size: 14px;
+    line-height: 1.4285em;
+    color: rgba(0, 0, 0, .87);
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    box-sizing: inherit;
+    border-radius: 12px;
+    padding: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(236, 239, 241);
+    border-image: initial;
+    background: rgb(249, 249, 249);
+}
+
+.Swap-component-body .Currency-input-title {
+    font-size: 14px;
+    line-height: 1.4285em;
+    color: rgba(0, 0, 0, .87);
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    box-sizing: inherit;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.Swap-component-body .Currency-input-currency-input-row {
+    font-size: 14px;
+    line-height: 1.4285em;
+    color: rgba(0, 0, 0, .87);
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    box-sizing: inherit;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: 10px 0 5px 0;
+}
+
+
+.Swap-component-body .Currency-select-token-btn:focus {
+    outline: none;
+}
+
+.Currency-select-token-btn:hover,
+.Currency-select-btn-inner:hover {
+    cursor: pointer;
+    color: rgb(22, 171, 113) !important;
+}
+
+.Swap-component-body .Currency-select-token-btn {
+    box-sizing: inherit;
+    line-height: 1.15;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.9);
+    white-space: nowrap;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: inherit;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 15px 10px 5px 0px !important;
+}
+
+.Swap-component-body .Currency-select-btn-inner {
+    width: 100%;
+    line-height: 1.15;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.9);
+    white-space: nowrap;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: inherit;
+    box-sizing: inherit;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-right: 6px;
+}
+
+
+
+.Swap-component-body .Currency-select-btn-token-icon {
+    line-height: 1.15;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.9);
+    white-space: nowrap;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: inherit;
+    box-sizing: inherit;
+    border-style: none;
+    height: 26px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.Swap-component-body .Currency-input {
+    line-height: 1.15;
+    text-transform: none;
+    color: rgba(0, 0, 0, 0.9);
+    white-space: nowrap;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: inherit;
+    box-sizing: inherit;
+}
+
+.Swap-component-body .Swapper-center-row {
+    font-size: 14px;
+    line-height: 1.4285em;
+    color: rgba(0, 0, 0, .87);
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    box-sizing: inherit;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-right: 17px;
+}
+
+.Swap-component-body .Swapper-center-row .Swapper-styled-icon {
+    font-size: 14px;
+    line-height: 1em;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    box-sizing: inherit;
+    border-style: none;
+    max-width: 25px;
+    display: block !important;
+    color: rgb(24, 198, 131) !important;
+    margin: 10px 0px 10px 20px;
+}
+
+.arrow-near-select {
+    margin-left: 10px;
+}
+
+.Swap-button-container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rateH4 {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rateH4 p {
+    padding-left: 5px;
+    margin: 0;
+}
+
+.rateH4 p:first-child {
+    padding-right: 5px;
+}
+
+.Swap-result-message{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Swap-result-message p{
+    margin: 15px 0px;
+    font-size: 14px;
+}

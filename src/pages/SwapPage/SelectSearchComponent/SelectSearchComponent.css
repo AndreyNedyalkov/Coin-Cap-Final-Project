@@ -1,0 +1,17 @@
+.select-search-box{
+    text-align: center;
+    width: 100%;
+}
+
+
+.select-search {
+    width: 150px;
+    position: relative;
+    font-family: "Nunito Sans", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .css-1s2u09g-control:hover {
+    cursor: pointer;
+  }
+ 

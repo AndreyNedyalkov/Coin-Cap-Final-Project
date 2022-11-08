@@ -1,0 +1,72 @@
+.Settings-gear-container {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Settings-gear-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Settings-gear-btn i {
+    color: #2f3640;
+    transition: 2s;
+    font-size: 20px;
+}
+
+.Settings-gear-btn:hover i {
+    color: red;
+    text-shadow: 2px 2px 2px 2px #FF0000;
+    transition: 2s;
+    animation: rotation 0.7s linear 0s infinite forwards;
+}
+
+.Settings-gear-btn i:hover {
+    cursor: pointer;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.Modal-settings:focus {
+    outline: none;
+}
+
+.Close-settings-div {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 0 0 10% 0;
+}
+
+.setLogoDiv {
+    display: flex;
+}
+
+.setLogoDiv h1 {
+    margin: 0 5%;
+    font-size: 22px;
+}
+
+.settings-logo {
+    height: 35px;
+}
+
+.Close-settings-btn {
+    transform: rotate(45deg);
+}
+
+.Close-settings-btn:hover {
+    cursor: pointer;
+}

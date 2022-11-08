@@ -1,0 +1,29 @@
+.MainWrapper {
+      padding: 0vw 7vw;
+      justify-content: center;
+      margin-top: -110px;
+}
+
+.LastTwentyFourHoursCollapseMenu {
+    display: flex;
+    justify-content: center;
+}
+
+.MainGreenButton {
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+    .MainWrapper {
+        margin-top: -110px;
+        transition: 1s;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .MainWrapper {
+        padding: 0px;
+        margin-top: 0px;
+        transition: 1s;
+    }
+}

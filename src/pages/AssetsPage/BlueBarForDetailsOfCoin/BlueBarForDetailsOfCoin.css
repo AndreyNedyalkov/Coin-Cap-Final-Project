@@ -1,0 +1,330 @@
+/* div.ui.raised.attached.very.padded.segment.asset-header {
+    background-image: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246));
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 42px;
+} */
+
+div.ui.raised.attached.very.padded.segment.asset-header {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    box-sizing: inherit;
+    background: #fff;
+    margin: 0 -1px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246));
+    display: flex;
+    flex-direction: row;
+    padding:42px
+}
+
+#root>div>div.App-main>div>div.ui.raised.attached.very.padded.segment.asset-header>div {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: -2rem;
+}
+
+div.seven.wide.column {
+    font-size: 14px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    padding: 1rem;
+    width: 40% !important;
+}
+
+div.seven.wide.column>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: -1rem;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+
+div.four.wide.column {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px;
+    width: 25% !important;
+}
+
+div.four.wide.column>div {
+    box-sizing: inherit;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    position: relative;
+    text-align: center;
+    width: auto;
+    display: inline-block;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 15px -3px;
+    background: rgb(24, 198, 131);
+    padding: 1rem;
+}
+
+.bihKRl::before {
+    content: "";
+    width: calc(100% + 20px);
+    height: 10px;
+    position: absolute;
+    left: -10px;
+    top: 0px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    background: inherit;
+}
+
+div.four.wide.column>div>h1 {
+    text-align: center;
+    box-sizing: inherit;
+    padding: 0;
+    font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+    line-height: 1.28571429em;
+    margin: calc(2rem - .14285714em) 0 1rem;
+    font-weight: 700;
+    min-height: 1rem;
+    font-size: 24px;
+    margin-top: 0;
+    color: white !important;
+}
+
+div.four.wide.column>div>p {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: white;
+    box-sizing: inherit;
+    margin: 0 0 1em;
+    line-height: 1.4285em;
+    font-size: 0.7rem;
+    margin-bottom: 0;
+}
+
+div.seven.wide.column>div>div.top.aligned.twelve.wide.column {
+    display: inline-block;
+    padding:14px;
+    width: 60% !important;
+    flex-direction: column;
+    vertical-align: top;
+    justify-content: flex-start;
+    align-self: flex-start !important;
+}
+
+.top.aligned.twelve.wide.column>h1 {
+    min-height: 1rem;
+    margin: calc(2rem - .14285714em) 0 1rem;
+    font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.28571429em;
+    text-transform: none;
+    font-size: 28px;
+    margin: -4px 0 13px; 
+    color: white !important;
+    text-align: left;
+}
+
+div.seven.wide.column>div>div.top.aligned.twelve.wide.column>h2>span {
+    font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+    line-height: 1.28571429em;
+    font-weight: 700;
+    font-size: 24px;
+    box-sizing: inherit;
+    color: white !important;
+}
+
+div.top.aligned.twelve.wide.column > h3{
+    padding: 0;
+    margin: calc(2rem - .14285714em) 0 1rem;
+    margin-bottom: 3px;
+    display: inline-block;
+    margin-left: 16px;
+    vertical-align: bottom;
+}
+
+div.seven.wide.column>div>div.top.aligned.twelve.wide.column>h3>span {
+    font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+    line-height: 1.28571429em;
+    font-weight: 700;
+    font-size: 1.18571429rem;
+    box-sizing: inherit;
+    color: rgb(24, 198, 131);
+}
+
+div.ui.raised.attached.very.padded.segment.asset-header>div>div.nine.wide.column {
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    vertical-align: top;
+    min-width: 50.25% !important;
+}
+
+div.ui.raised.attached.very.padded.segment.asset-header>div>div.nine.wide.column>div {
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 0;
+    margin: -1rem;
+}
+
+div.nine.wide.column>div>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: inherit;
+    align-items: stretch;
+    width: 80% !important;
+    padding: 1rem 0;
+}
+
+
+
+div.nine.wide.column>div>div>div>div {
+    margin: calc(2rem - .14285714em) 0 1rem;
+    font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.28571429em;
+    text-transform: none;
+    margin-top: -.14285714em;
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: white !important;
+}
+
+div.nine.wide.column>div>div>div {
+    line-height: 1.4285em;
+    color: rgba(0, 0, 0, .87);
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    box-sizing: inherit;
+    position: relative;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 25.33333333%;
+}
+
+div.nine.wide.column>div>div:nth-child(1)>div:nth-child(1)>div>div {
+    font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+    text-transform: none;
+    box-sizing: inherit;
+    display: block;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2em;
+    font-size: 1rem;
+    color: white !important;
+}
+
+div.nine.wide.column>div>div:nth-child(1)>div>div>span {
+    font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.28571429em;
+    text-transform: none;
+    font-size: 1.28571429em;
+    color: white !important;
+    box-sizing: inherit;
+}
+
+div.nine.wide.column>div>div:nth-child(1)>div:nth-child(3)>div {
+    box-sizing: inherit;
+    border: none;
+    margin: calc(2rem - .14285714em) 0 1rem;
+    padding: 0;
+    font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.28571429em;
+    text-transform: none;
+    margin-top: -.14285714em;
+    margin-bottom: 0;
+    font-size: 1.28571429em;
+    color: white !important;
+}
+
+div.nine.wide.column>div>div:nth-child(2)>div:nth-child(2)>a {
+    box-sizing: inherit;
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+    margin: 0 .25em 0 0;
+    padding: .78571429em 1.5em;
+    text-transform: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1rem;
+    border-radius: 10em;
+    color: #fff;
+    text-shadow: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 15px -3px;
+    transition: transform 0.2s ease 0s;
+    background: rgb(24, 198, 131) !important;
+}
+
+div.nine.wide.column>div>div:nth-child(2)>div:nth-child(1)>a {
+    box-sizing: inherit;
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    font-family: Lato, Helvetica Neue, Arial, Helvetica, sans-serif;
+    margin: 0 .25em 0 0;
+    padding: .78571429em 1.5em;
+    text-transform: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1rem;
+    border-radius: 10em;
+    color: #fff;
+    text-shadow: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 15px -3px;
+    transition: transform 0.2s ease 0s;
+    background: rgb(24, 198, 131) !important;
+    transform: translateY(-2px);
+}
+
+div.seven.wide.column > div:nth-child(1) > div:nth-child(2){
+    text-align: start;
+}
+
+div.nine.wide.column > div > div:nth-child(1) > div:nth-child(3) > div > div{
+    font-size: 16px;
+}
+
+div.nine.wide.column > div > div:nth-child(1) > div:nth-child(3) > div{
+    font-size: 16px;
+}
+
+.ui.container.stackable.two.column.grid{
+    width: 80%;
+}

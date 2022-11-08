@@ -1,0 +1,48 @@
+.Nav-Link-container {
+ height: 60px;
+}
+.Nav-Link {
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 50px;
+}
+
+.logoSize {
+  width: 100px;
+}
+
+.MobileLogoSize {
+  width: 70px
+}
+
+/* MOBILE START  */
+body > div.MuiDrawer-root.MuiDrawer-modal.MuiModal-root.css-mvd1hw-MuiModal-root-MuiDrawer-root > div.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-4t3x6l-MuiPaper-root-MuiDrawer-paper > div > ul > li {
+  display: flex;
+  justify-content: center; 
+}
+
+.List-item-link{
+  color:#2f3640;
+  text-decoration: none;
+  width: 100%;
+}
+
+.Flex-Column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Flex-Column > a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+.Mobile-Icons-Header {
+  font-size: 25px;
+}
+
+/* MOBILE END  */

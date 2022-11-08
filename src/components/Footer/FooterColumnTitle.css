@@ -1,0 +1,11 @@
+.Footer-Column-Title {
+  font-size: 1em;
+  color: white;
+  margin-bottom: 1em;
+  font-weight: 700;
+  line-height: 1.28571429em;
+}
+
+.Disclaimer {
+  margin: calc(2rem - 0.14285714em) 0 1rem;
+}

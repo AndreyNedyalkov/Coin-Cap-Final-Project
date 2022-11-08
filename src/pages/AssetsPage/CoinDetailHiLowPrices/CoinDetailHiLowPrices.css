@@ -1,0 +1,42 @@
+.coin-detail-container,
+.coin-detail-block,
+.coin-name-symbol>h3,
+.coin-detail-block>div>span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.coin-detail-container {
+    padding: 10px 10px 10px 100px;
+    font-weight: bold;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.coin-detail-block>div>span p {
+    font-size: 14px;
+    margin: 0 0 0 30px;
+    color:black;
+}
+
+
+.icon-container img {
+    width: 50px;
+}
+
+.coin-detail-block>div{
+    padding: 14px;
+}
+
+.coin-name-symbol>p{
+    font-size: 14px;
+}
+
+.coin-name-symbol>h3{
+    margin: 15px;
+}
+.coin-detail-block>div>span{
+    padding: 14px;
+    color: #34373c;
+}

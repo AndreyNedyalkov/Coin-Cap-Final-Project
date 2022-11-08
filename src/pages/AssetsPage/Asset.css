@@ -1,0 +1,12 @@
+.Assets-page {
+    padding: 0vw 7vw;
+    background-color: white;
+}
+
+.AssetLoader{
+    margin-left: 10px;
+    width:30px
+}
+.AssetLoader:first-child{
+    width: 110px;
+}

@@ -1,0 +1,32 @@
+.Mobile-blue-bar-accordion {
+    background-image: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246));
+}
+
+.Mobile-blue-bar-accordion div:first-child div:first-child {
+    margin: 0px;
+}
+
+.Mobile-blue-bar-accordion div:first-child {
+    min-height: 30px;
+    align-items: center;
+}
+
+#panel1a-content>div {
+    padding-top: 0;
+}
+
+.Mobile-blue-bar-accordion-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-bottom: 1px rgba(7, 7, 7, 0.1) solid;
+}
+
+.Mobile-blue-bar-accordion-item p {
+    margin: 8px;
+    font-size: 14px;
+}
+
+.Blue-mobile-bar-accordion-header-title {
+    padding-top: 5px;
+}
